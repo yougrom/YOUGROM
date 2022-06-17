@@ -1,0 +1,17 @@
+const storeName = 'Apple';
+
+const storeDescription = {
+    budget: 10000,
+    employees: ['Ken', 'Hren', 'Barbie'],
+    products: {
+        havchik: 15,
+        vipivka: 13
+    },
+    open: true
+    
+};
+
+storeDescription.products.vipivka = 25; 
+storeDescription.open = false;
+
+console.log('havchik : ', 'vipivka', storeDescription );
