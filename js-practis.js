@@ -1,8 +1,9 @@
-const storeName = 'Apple';
+const { STORE_NAME } = require('./constants');
 
 const storeDescription = {
     budget: 10000,
-    employees: ['Ken', 'Hren', 'Barbie'],
+    storeName: STORE_NAME,
+    employees: ["Ken", "Hren", "Barbie"],
     products: {
         havchik: 15,
         vipivka: 13
@@ -14,4 +15,4 @@ const storeDescription = {
 storeDescription.products.vipivka = 25; 
 storeDescription.open = false;
 
-console.log('havchik : ', 'vipivka', storeDescription );
+console.log("storeDescription : ", storeDescription );
